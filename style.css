@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+.top {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.top h1 {
+    font-family: Georgia, serif;
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+
+.top-right {
+    display: flex;
+    gap: 25px;
+}
+
+nav {
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    border-top: 1px solid black;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.main-story {
+    grid-row: span 2;
+    border: 1px solid black;
+}
+
+.story-two {
+    border: 1px solid black;
+}
+
+.story-three {
+    border: 1px solid black;
+}
+
+.story-four {
+    border: 1px solid black;
+}
+
+.story-five {
+    border: 1px solid black;
+}
+
+.image {
+    height: 180px;
+    background-color: #d9d9d9;
+}
+
+.large-image {
+    height: 400px;
+}
+
+.story-text {
+    padding: 18px;
+}
+
+.story-text p:first-child {
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.story-text h2 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.story-text p:last-child {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.story-four,
+.story-five {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.story-four .image,
+.story-five .image {
+    height: 220px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+footer h2 {
+    font-family: Georgia, serif;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 25px;
+}
+
+footer p {
+    font-size: 13px;
+}
